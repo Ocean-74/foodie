@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Street Food: A Legacy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="site-header">
+      <nav class="navbar">
+        <!-- Left: Logo area with primary background -->
+        <div class="nav-logo">
+          <div class="logo">Indian Street Food</div>
+        </div>
+        <!-- Right: Navigation links -->
+        <ul class="nav-menu">
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#food-items">Food Items</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- BANNER SECTION: Headline with gradient text and typewriter effect -->
+    <section id="banner" class="banner-section typewriter">
+      INDIAN STREET FOOD: A LEGACY
+    </section>
+
+    <!-- INTRODUCTION SECTION: Contains the "GET READY" text in three lines -->
+    <section id="intro" class="intro-section">
+      <div class="intro-content">
+        <div class="big-transport-text typewriter">
+          GET READY TO BE<br />
+          TRANSPORTED TO THE<br />
+          STREET OF INDIA
+        </div>
+        <div class="hindi-text typewriter">मुस्कुराये आप मेरे भारत में हैं</div>
+        <p class="intro-description">
+          The origin of Indian street food can be traced to the rich culinary
+          traditions of India, where local flavors and spices have been passed
+          down through generations. Over time, street food evolved as a
+          reflection of regional diversity, with each city and state adding its
+          unique twist to these beloved dishes. It has become an integral part
+          of Indian culture, offering a quick yet authentic taste of the
+          country’s vibrant heritage.
+        </p>
+      </div>
+    </section>
+
+    <!-- FILTER SECTION (Dynamically generated filters) -->
+    <section id="filter-section" class="filter-section">
+      <div class="filter-container">
+        <!-- Filter buttons will be generated dynamically here -->
+      </div>
+    </section>
+
+    <!-- FOOD ITEMS SECTION -->
+    <section id="food-items" class="food-items-section">
+      <div class="food-grid">
+        <!-- Food items will be injected via script.js -->
+      </div>
+    </section>
+
+    <!-- HISTORY SECTION (History Cards) -->
+    <section id="history" class="history-section">
+      <h2 class="typewriter">Our Culinary Journey</h2>
+      <div class="history-cards">
+        <div class="history-card">
+          <h3>Ancient Origins</h3>
+          <p>
+            The roots of Indian street food stretch back millennia. Early
+            travelers and locals savored simple, nourishing meals that laid the
+            foundation for a rich culinary tradition.
+          </p>
+        </div>
+        <div class="history-card">
+          <h3>Medieval Marvels</h3>
+          <p>
+            The medieval era infused everyday dishes with royal spices and
+            techniques, transforming simple fare into a vibrant celebration of
+            flavor.
+          </p>
+        </div>
+        <div class="history-card">
+          <h3>Colonial Fusion</h3>
+          <p>
+            The blending of new ingredients with ancient recipes during the
+            colonial period sparked innovative dishes that honor tradition while
+            embracing change.
+          </p>
+        </div>
+        <div class="history-card">
+          <h3>Modern Revival</h3>
+          <p>
+            After independence, street food re-emerged as a symbol of urban
+            resilience—reviving forgotten flavors and reinventing classic
+            dishes.
+          </p>
+        </div>
+        <div class="history-card">
+          <h3>Contemporary Innovation</h3>
+          <p>
+            Today, creative chefs merge heritage with modern flair, reinventing
+            street food for a new generation while preserving its soulful
+            legacy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+      <h2 class="typewriter">About Our Legacy</h2>
+      <div class="about-content">
+        <p>
+          Indian street food is a celebration of flavors, culture, and
+          community. Our mission is to share authentic recipes passed down
+          through generations—reimagined for today’s palate. Every bite tells a
+          story, inviting you to experience the rich heritage of India.
+        </p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-section">
+      <h2 class="typewriter">What People Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>
+            "The flavors are explosive and the textures are perfection. A true
+            homage to Indian street food!"
+          </p>
+          <span>- A Food Lover</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "I feel like I’m strolling through a vibrant Indian market with
+            every bite. Absolutely delightful!"
+          </p>
+          <span>- Culinary Explorer</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Bold, vibrant, and unapologetically authentic—this is street food
+            at its finest."
+          </p>
+          <span>- Gourmet Guru</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <h2 class="typewriter">Get In Touch</h2>
+      <div class="contact-content">
+        <p>
+          Have a question or want to share your own recipe? We'd love to hear
+          from you!
+        </p>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>&copy; 2025 Indian Street Food. All rights reserved.</p>
+      <p>Designed by Bansari Vaishnav.</p>
+    </footer>
+
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="recipe-modal">
+      <div class="recipe-modal-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="recipe-title"></h3>
+        <p id="recipe-description"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
